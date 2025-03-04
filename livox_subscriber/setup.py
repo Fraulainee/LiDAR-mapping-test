@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'lidar_subscriber = livox_subscriber.lidar_subscriber:main',
+            'lidar_passthrough = livox_subscriber.lidarpassthrough:main',
         ],
     },
 )
